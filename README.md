@@ -53,6 +53,30 @@ dbsocial/
 5. Start Apache and MySQL.
 6. Open the project in your browser.
 
+
+## How to Run
+
+### Requirements
+
+- XAMPP/WAMP/LAMP
+- PHP 8.x
+- MySQL
+
+### Steps
+
+1. Clone or download the repository.
+2. Copy the project folder to the `htdocs` directory (XAMPP).
+3. Start Apache and MySQL.
+4. Import the `database.sql` file into MySQL.
+5. Configure the database connection if required.
+6. Open the following URL in your browser:
+
+```
+http://localhost/dbsocial/login.html
+```
+
+> **Entry Point:** The application starts from `login.html`.
+
 ## Future Improvements
 
 - Responsive UI
